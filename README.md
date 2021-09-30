@@ -9,6 +9,8 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/amazon-braket-s
 
 Summary: An open source library for interacting with quantum computing devices on Amazon Braket
 
+Documentation: https://amazon-braket-sdk-python.readthedocs.io/en/latest/
+
 Current build status
 ====================
 
