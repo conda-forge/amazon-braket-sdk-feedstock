@@ -46,6 +46,7 @@ about:
   license_file:
     - LICENSE
     - NOTICE
+  doc_url: https://amazon-braket-sdk-python.readthedocs.io/en/latest/
 
 extra:
   recipe-maintainers:
