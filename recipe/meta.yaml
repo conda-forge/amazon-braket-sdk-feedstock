@@ -1,5 +1,5 @@
 {% set name = "amazon-braket-sdk" %}
-{% set version = "1.9.4" %}
+{% set version = "1.9.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/amazon-braket-sdk-{{ version }}.tar.gz
-  sha256: 2cc44d8ae077b1a4211fc3271aabb68ca4c71c2d933f29f697dfadbf4ed4addf
+  sha256: c043a443d9a7231ba46093320ea11eb08551944ca66d5b10a205bfebe11a1c87
 
 build:
   number: 0
@@ -24,6 +24,7 @@ requirements:
     - backoff
     - boltons
     - boto3
+    - coverage ==5.5
     - nest-asyncio
     - networkx
     - numpy
