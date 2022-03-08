@@ -29,11 +29,11 @@ requirements:
     - networkx
     - numpy
     - python >=3.7.2
+    - sympy
 
 test:
   imports:
     - braket
-    - braket._sdk
   commands:
     - pip check
   requires:
