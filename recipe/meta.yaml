@@ -1,5 +1,5 @@
 {% set name = "amazon-braket-sdk" %}
-{% set version = "1.29.4" %}
+{% set version = "1.30.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/amazon-braket-sdk-{{ version }}.tar.gz
-  sha256: 25363171325a32893d0f2330c7e3589ad9cae0eee7ab3d9fd311e49afa7cece8
+  sha256: 3663e2a8bc23fc1dc058f75ccdf64604b48971564d30af7a8df00cdbce30d145
 
 build:
   number: 0
@@ -21,7 +21,7 @@ requirements:
     - python >=3.7.2
   run:
     - amazon-braket-schemas >=1.10.1
-    - amazon-braket-default-simulator >=1.7.2
+    - amazon-braket-default-simulator >=1.8.1
     - backoff
     - boltons
     - boto3
