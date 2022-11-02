@@ -22,7 +22,7 @@ requirements:
   run:
     - openpulse
     - openqasm3
-    - oqpy ==0.1.0
+    - oqpy ==0.1.1
     - amazon-braket-schemas >=1.12.0
     - amazon-braket-default-simulator >=1.10.0
     - backoff
