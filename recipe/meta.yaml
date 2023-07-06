@@ -1,5 +1,5 @@
 {% set name = "amazon-braket-sdk" %}
-{% set version = "1.47.0" %}
+{% set version = "1.48.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/amazon-braket-sdk-{{ version }}.tar.gz
-  sha256: be50148c8308fcdf1a2c42f1451cde52675694ff02af98ebaf0a2eb485beed5c
+  sha256: 766192eb1f50e4ae9b684599878c26f848c5f49faa8d1513e03bc179b878e3c4
 
 build:
   number: 0
@@ -20,6 +20,7 @@ requirements:
     - pip
     - python >=3.8.2
   run:
+    - botocore <1.29.160
     - setuptools
     - openpulse
     - openqasm3
@@ -28,7 +29,7 @@ requirements:
     - amazon-braket-default-simulator >=1.15.0
     - backoff
     - boltons
-    - boto3 >=1.22.3
+    - boto3 >=1.22.3,<1.26.160
     - nest-asyncio
     - networkx
     - numpy
