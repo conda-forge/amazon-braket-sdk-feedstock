@@ -20,7 +20,6 @@ requirements:
     - pip
     - python >=3.8.2
   run:
-    - botocore <1.29.160
     - setuptools
     - openpulse
     - openqasm3
