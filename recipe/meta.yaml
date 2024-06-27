@@ -1,5 +1,5 @@
 {% set name = "amazon-braket-sdk" %}
-{% set version = "1.81.1" %}
+{% set version = "1.82.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 7ac2aeab2fbec0511eb07d295d9e26ee35862c5b4c6ba50b097ddad432370302
+  sha256: 5e6304b8740dccf674860a3f98dc82acb5704b2589cba0aedb2f2f8a385af54a
 
 build:
   number: 0
@@ -27,13 +27,13 @@ requirements:
     - openqasm3
     - oqpy >=0.3.5,<0.4.dev0
     - amazon-braket-schemas >=1.21.3
-    - amazon-braket-default-simulator >=1.21.4
+    - amazon-braket-default-simulator >=1.25.0
     - backoff
     - boltons
     - boto3 >=1.28.53
     - nest-asyncio
     - networkx
-    - numpy <2
+    - numpy
     - python >=3.9
     - sympy
 
