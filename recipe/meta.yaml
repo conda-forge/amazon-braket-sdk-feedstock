@@ -1,5 +1,5 @@
 {% set name = "amazon-braket-sdk" %}
-{% set version = "1.87.0" %}
+{% set version = "1.87.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: e3242846c99270c035076346007e630579c743142b5dc04f356e0c3af0298a6a
+  sha256: d61181cd6bf8442b60128065f2825bbb5d2856d24e44780d0074b4b81d1afc13
 
 build:
   number: 0
@@ -21,7 +21,7 @@ requirements:
     - python >=3.9
   run:
     - backports.entry-points-selectable
-    - cloudpickle ==2.2.1
+    - cloudpickle >=3
     - setuptools
     - openpulse
     - openqasm3
