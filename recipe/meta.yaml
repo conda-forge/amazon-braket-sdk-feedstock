@@ -19,10 +19,10 @@ requirements:
   host:
     - pip
     - python >=3.9
+    - setuptools
   run:
     - backports.entry-points-selectable
     - cloudpickle >=3
-    - setuptools
     - openpulse
     - openqasm3
     - oqpy >=0.3.5,<0.4.dev0
