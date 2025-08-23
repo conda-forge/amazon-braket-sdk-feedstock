@@ -1,5 +1,5 @@
 {% set name = "amazon-braket-sdk" %}
-{% set version = "1.99.0" %}
+{% set version = "1.100.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 30512a5d115425996309b6e1db4acf4795f0a09d41f44fd1dbb2ae561c9b3d52
+  sha256: fabe86778a9b26874677d1ca0fb844b7dcde3cca4a1ffe6f253b2df106deae24
 
 build:
   number: 0
