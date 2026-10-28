@@ -1,5 +1,5 @@
 {% set name = "amazon-braket-sdk" %}
-{% set version = "1.127.5" %}
+{% set version = "1.127.6" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: d0400334e19e86b643f9a76dacf9f22d5b805faf165057fe832602177f128525
+  sha256: c315d6d7f83227124e3739e6ece1dfaf8987b716074fbe72fae2ad68a27b319e
 
 build:
   number: 0
